@@ -1,0 +1,59 @@
+2018-Aug-15 11:41:27.100026 INFO [daemon] LABcoin v0.1.3.1.0.3()
+2018-Aug-15 11:41:27.100298 INFO [daemon] Module folder: ./labcoind
+2018-Aug-15 11:41:27.104581 ERROR [checkpoints] WRONG HASH IN CHECKPOINTS!!!
+2018-Aug-15 11:41:27.105031 INFO [daemon] Initializing p2p server...
+2018-Aug-15 11:41:27.105228 INFO [node_server] Binding on 0.0.0.0:20050
+2018-Aug-15 11:41:27.105369 INFO [node_server] Net service binded on 0.0.0.0:20050
+2018-Aug-15 11:41:27.105482 INFO [node_server] Attempting to add IGD port mapping.
+2018-Aug-15 11:41:31.110141 INFO [node_server] No IGD was found.
+2018-Aug-15 11:41:31.110253 INFO [daemon] P2p server initialized OK
+2018-Aug-15 11:41:31.110291 INFO [daemon] Initializing core...
+2018-Aug-15 11:41:31.110436 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Aug-15 11:41:31.135784 INFO [Blockchain] Blockchain initialized. last block: 0, d218.h5.m7.s46 time ago, current difficulty: 1
+2018-Aug-15 11:41:31.135959 INFO [daemon] Core initialized OK
+2018-Aug-15 11:41:31.136141 INFO [daemon] Starting core rpc server on address 127.0.0.1:19050
+2018-Aug-15 11:41:31.136307 INFO [daemon] Core rpc server started ok
+2018-Aug-15 11:41:31.136424 INFO [daemon] Starting p2p net loop...
+2018-Aug-15 11:41:31.136515 INFO [node_server] Starting node_server
+2018-Aug-15 11:41:31.138350 INFO [protocol] 
+2018-Aug-15 11:41:31.138350 INFO [protocol] **********************************************************************
+2018-Aug-15 11:41:31.138350 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Aug-15 11:41:31.138350 INFO [protocol] 
+2018-Aug-15 11:41:31.138350 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Aug-15 11:41:31.138350 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Aug-15 11:41:31.138350 INFO [protocol] 
+2018-Aug-15 11:41:31.138350 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Aug-15 11:41:31.138350 INFO [protocol] **********************************************************************
+2018-Aug-15 11:41:31.139464 INFO [core] 
+2018-Aug-15 11:41:31.139464 INFO [core] **********************************************************************
+2018-Aug-15 11:41:31.139464 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Aug-15 11:41:31.139464 INFO [core] 
+2018-Aug-15 11:41:31.139464 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Aug-15 11:41:31.139464 INFO [core] 
+2018-Aug-15 11:41:31.139464 INFO [core] Use "help" command to see the list of available commands.
+2018-Aug-15 11:41:31.139464 INFO [core] 
+2018-Aug-15 11:41:31.139464 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Aug-15 11:41:31.139464 INFO [core] **********************************************************************
+2018-Aug-15 11:41:31.140480 WARNING [node_server] [18.130.193.32:51940 INC] Exception in connectionHandler: TcpConnection::read
+2018-Aug-15 11:41:36.848484 INFO [node_server] Stop signal sent
+2018-Aug-15 11:41:36.848682 INFO [node_server] Stopping NodeServer and it's0 connections...
+2018-Aug-15 11:41:36.848865 INFO [node_server] NodeServer loop stopped
+2018-Aug-15 11:41:36.848971 INFO [daemon] p2p net loop stopped
+2018-Aug-15 11:41:36.849075 INFO [daemon] Stopping core rpc server...
+2018-Aug-15 11:41:36.849195 INFO [daemon] Deinitializing core...
+2018-Aug-15 11:41:36.849273 INFO [miner] Mining has been stopped, 0 finished
+2018-Aug-15 11:41:36.849414 INFO [Blockchain] Saving blockchain...
+2018-Aug-15 11:41:36.849520 INFO [BlockCacheSerializer] - saving block index...
+2018-Aug-15 11:41:36.849606 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Aug-15 11:41:36.849678 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Aug-15 11:41:36.849749 INFO [BlockCacheSerializer] - saving outputs...
+2018-Aug-15 11:41:36.849826 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Aug-15 11:41:36.849897 INFO [BlockCacheSerializer] - saving deposit index...
+2018-Aug-15 11:41:36.849973 INFO [BlockCacheSerializer] Serialization time: 0ms
+2018-Aug-15 11:41:36.850055 INFO [Blockchain] Saving blockchain indices...
+2018-Aug-15 11:41:36.850147 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Aug-15 11:41:36.850224 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Aug-15 11:41:36.850298 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Aug-15 11:41:36.850382 INFO [daemon] Deinitializing p2p...
+2018-Aug-15 11:41:36.850564 INFO [miner] Mining has been stopped, 0 finished
+2018-Aug-15 11:41:36.850741 INFO [daemon] Node stopped.
